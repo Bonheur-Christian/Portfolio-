@@ -9,7 +9,7 @@ function LandingBar() {
   ];
   return (
     <div>
-      <nav className="text-white flex justify-between px-40 py-12">
+      <nav className="text-white flex justify-between px-12 py-12">
         <div>
           <img src="images/logo.png" alt="Personal Logo" width={80} height={80} />
         </div>
