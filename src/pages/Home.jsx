@@ -1,6 +1,7 @@
 import About from "../components/About";
 import Intro from "../components/Intro";
 import LandingBar from "../components/LandingBar";
+import Testimonials from "../components/Testimonial";
 
 
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
             <Intro/>
             <div className="bg-[#1F1E1E] h-24 -ms-48 -me-48"></div>
             <About/>
+            <Testimonials/>
         </div>
     )
 }
